@@ -4,12 +4,13 @@ import Affirmation from "./components/Affirmation";
 import PrioritiesAndName from "./components/PrioritiesAndName";
 import Journal from "./components/Journal";
 import Gratitude from "./components/Gratitude";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <div className="bg-(--gray-background)">
-      <div className="border-2">Header</div>
-      <div className="h-full w-screen border-2 flex flex-row gap-3 p-10">
+      <Header />
+      <div className="h-full w-screen flex flex-row gap-3 p-10">
         <div className="flex flex-col w-1/5 gap-3 h-full">
           <Clock />
           {/* <div className="border-2">Weather</div> */}
