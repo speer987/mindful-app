@@ -1,5 +1,35 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Imbue";
+  src: url(./fonts/Imbue_14pt-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url(./fonts/Figtree-Light.ttf);
+}
+
+@font-face {
+  font-family: "Imbue Light";
+  src: url(./fonts/Imbue_14pt-Light.ttf);
+}
+
+@theme {  
+  --font-imbue: "Imbue", "serif";
+  --shadow: shadow-[inset_0_6px_6px_-6_rgba(0,0,0,0.3)]
+}
+
+@theme {  
+  --font-imbue-light: "Imbue Light", "serif";
+  --shadow: shadow-[inset_0_6px_6px_-6_rgba(0,0,0,0.3)]
+}
+
+@theme {  
+  --font-figtree: "Figtree", "sans-serif";
+  --shadow: shadow-[inset_0_6px_6px_-6_rgba(0,0,0,0.3)]
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
