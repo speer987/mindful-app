@@ -19,15 +19,15 @@ export default function Clock() {
   ];
 
   return (
-    <div className="border-1 border-gray-300 rounded-lg divide-y-1 divide-solid divide-gray-300">
-      <div className="text-center text-7xl font-imbue p-2.5">
+    <div className="border-1 border-white/40 rounded-lg shadow-(--pop-shadow) flex flex-col gap-1.5 p-2 bg-(--gray-background)">
+      <div className="text-center text-7xl font-imbue p-2">
         {hours}:{minutes} {ampm}
       </div>
-      <div className="flex flex-row divide-x-1 divide-solid divide-gray-300">
-        <div className="w-1/2 p-2.5 font-figtree uppercase">
+      <div className="flex flex-row gap-3">
+        <div className="w-1/2 font-figtree uppercase rounded-md text-center p-2 shadow-(--inset-shadow) border-white/40">
           {daysOfTheWeek[day]}
         </div>
-        <div className="w-1/2 p-2.5 font-figtree">
+        <div className="w-1/2 font-figtree text-center p-2 rounded-md shadow-(--inset-shadow) border-white/40">
           {now.toLocaleString("en-US", {
             year: "numeric",
             month: "long",

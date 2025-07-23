@@ -7,7 +7,7 @@ import Gratitude from "./components/Gratitude";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-(--gray-background)">
       <div className="border-2">Header</div>
       <div className="h-full w-screen border-2 flex flex-row gap-3 p-10">
         <div className="flex flex-col w-1/5 gap-3 h-full">

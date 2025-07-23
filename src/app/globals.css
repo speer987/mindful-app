@@ -17,17 +17,20 @@
 
 @theme {  
   --font-imbue: "Imbue", "serif";
-  --shadow: shadow-[inset_0_6px_6px_-6_rgba(0,0,0,0.3)]
 }
 
 @theme {  
   --font-imbue-light: "Imbue Light", "serif";
-  --shadow: shadow-[inset_0_6px_6px_-6_rgba(0,0,0,0.3)]
 }
 
 @theme {  
   --font-figtree: "Figtree", "sans-serif";
-  --shadow: shadow-[inset_0_6px_6px_-6_rgba(0,0,0,0.3)]
+}
+
+@theme {  
+  --pop-shadow: 7px 7px 10px rgba(180, 180, 180, 0.50), -7px -7px 10px rgba(255, 255, 255, 0.9); 
+  --gray-background: #fcfcfd;
+  --inset-shadow: inset 4px 4px 10px rgba(180, 180, 180, 0.50), inset -4px -4px 10px rgba(255, 255, 255, 0.90); 
 }
 
 :root {
