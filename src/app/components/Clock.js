@@ -19,7 +19,7 @@ export default function Clock() {
   ];
 
   return (
-    <div className="border-1 border-white/40 rounded-lg shadow-(--pop-shadow) flex flex-col gap-1.5 p-2 bg-(--gray-background)">
+    <div className="border-1 border-gray-200/30 rounded-lg shadow-(--pop-shadow) flex flex-col gap-1.5 p-2 bg-(--gray-background)">
       <div className="text-center text-7xl font-imbue p-2">
         {hours}:{minutes} {ampm}
       </div>

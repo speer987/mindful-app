@@ -1,6 +1,6 @@
 export const ToDoItem = ({ text, id, isComplete, deleteTask, toggle }) => {
   return (
-    <div className="shadow-md bg-(--gray-background) rounded-md border-white/40 overflow-hidden p-1 flex flex-row items-center cursor-pointer justify-between">
+    <div className="shadow-md bg-(--gray-background) rounded-md border-gray-200/30 border-1 overflow-hidden p-2 flex flex-row items-center cursor-pointer justify-between">
       <div
         className="flex flex-row gap-1 justify-center items-center"
         onClick={() => toggle(id)}

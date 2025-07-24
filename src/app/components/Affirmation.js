@@ -16,9 +16,9 @@ export default function Affirmation() {
   }, []);
 
   return (
-    <div className="font-imbue flex flex-col shadow-(--pop-shadow) border-1 border-white/40 rounded-lg p-5 text-center gap-2 justify">
+    <div className="font-imbue flex flex-col shadow-(--pop-shadow) border-1 border-gray-200/30 rounded-lg p-5 text-center gap-2 justify">
       <p className="font-imbue uppercase text-3xl">Daily Affirmation</p>
-      <div className="h-55 w-55 rounded-full bg-radial from-pink-100 from-40% to-yellow-100"></div>
+      <div className="aspect-1/1 mx-2 rounded-full bg-radial from-pink-100 from-40% to-yellow-100"></div>
       <p className="font-figtree">{affirmation || "Loading..."}</p>
     </div>
   );
